@@ -11,14 +11,14 @@
 # will likely look very different (and much more reasonable)
 
 [package]
-name = "cortex-m-quickstart"
-version = "0.2.4"
-authors = ["Jorge Aparicio <jorge@japaric.io>"]
+name = "stm32f407_discovery"
+version = "0.0.1"
+authors = ["kflange"]
 description = "A template for building applications for ARM Cortex-M microcontrollers"
 keywords = ["arm", "cortex-m", "template"]
 categories = ["embedded", "no-std"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/japaric/cortex-m-quickstart"
+repository = "https://github.com/kflange/stm32f4_with_rust"
 [profile.dev]
 codegen-units = 1
 incremental = false
